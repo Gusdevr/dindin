@@ -1,0 +1,223 @@
+#destaque .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 125px 206px 66px;
+}
+
+#destaque .container div {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 27px;
+    line-height: 31px;
+}
+
+#destaque .container div h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+
+    color: #FF4081;
+    max-width: 488px;
+    margin-bottom: 19px;
+}
+
+#destaque .container div span {
+    color: #555555;
+    max-width: 462px;
+    margin-bottom: 38px;
+}
+
+#depoimentos .container h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 78px;
+    color: #009688;
+    font-weight: bold;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+#destaque .container div a {
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    width: fit-content;
+    color: #FF4081;
+    padding: 8px 26px;
+    text-decoration: none;
+}
+
+#cursos {
+    background: #F7F7F7;
+}
+
+#cursos .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 109px 128px 117px;
+}
+
+#cursos article {
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cursos article img {
+    margin-bottom: 45px;
+}
+
+#cursos article h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+    margin-bottom: 23px;
+}
+
+#cursos article span {
+    max-width: 293px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+#cursos article a {
+    border-radius: 62px;
+    width: 233px;
+    color: white;
+    background-color: #FF4081;
+    padding: 15px 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#depoimentos .container {
+    padding: 119px 128px;
+}
+
+#depoimentos .conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 86px;
+}
+
+#depoimentos .conteudo article {
+    display: flex;
+}
+
+#depoimentos .conteudo article .texto {
+    max-width: 363px;
+    margin-left: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+#depoimentos .conteudo article .info {
+    margin-top: 10px;
+}
+
+@media (max-width: 1000px){
+
+body{
+   width: 100%;
+   background: cover;
+    
+}
+
+header .container a img{
+    position: absolute;
+    left: 5%;
+    bottom: -8%;
+
+}
+#destaque h1{
+    
+    position: absolute;
+    left: 60px;
+    text-align: center;
+    
+}
+#destaque span{
+    text-align: center;
+    margin-top: 270px;
+}
+
+#destaque img{
+    
+    display: none;
+   
+}
+
+#depoimentos{
+    display: none;
+
+}
+
+.conteudo{
+    display: none;
+}
+
+#cursos{
+    display: none;
+}
+
+header{
+    position: absolute;
+   width: 900px;
+   
+}
+
+footer{
+    position: absolute;
+    width: 900px;
+}
+
+nav{
+    margin-right: 190px;
+    gap: 10px;
+    
+}
+
+
+footer .footer-list{
+    display: none;
+    
+}
+
+.footer-container-list #a1{
+    
+   position: absolute;
+   left: 40%;
+   width: 10%;
+   top: 23%;
+   
+   
+}
+
+.footer-container-list #a2{
+    
+    position: absolute;
+    left: 40%;
+    width: 10%;
+    top: 53%;
+    
+ }
+
+ .footer-container-list ul li{
+    border: none;
+ }
+
+footer{
+    margin-top: 500px;
+}
+
+}
+   
+    
